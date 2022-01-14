@@ -1,22 +1,27 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
+import {Nav} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export const NavBar = (props) => {
   return (
     <Fragment>
-      <nav id="NavBar">
+      <Nav id="NavBar" fill variant="tabs" defaultActiveKey="/Home">
         {props.pages &&
           props.pages.map((pages, index) => {
             return (
-                <button>
-              <Link key={index} to={pages.to}>
-                {pages.name}
-              </Link>
-                </button>
+                <Nav.Item>
+                  <Nav.Link>
+                  <Link key={index} to={pages.to}>
+                    {pages.name}
+                  </Link>
+                  </Nav.Link>
+                </Nav.Item>
             )
           })
         }
-      </nav>
+      </Nav>
     </Fragment>
   );
 };

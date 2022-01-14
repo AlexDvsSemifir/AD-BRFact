@@ -6,6 +6,7 @@ import FactCard from "../Commons/FactCard/FactCard";
 import { useEffect } from "react";
 
 // Components Imports :
+import './HomePage.css'
 
 export const HomePage = () => {
 
@@ -17,6 +18,7 @@ export const HomePage = () => {
   return (
     <Fragment>
         <h2>Les derniers facts :</h2>
+    <div className="Group">
       {facts &&
         factsPreview.map((fact, index) => {
           return (
@@ -29,6 +31,7 @@ export const HomePage = () => {
             />
           );
         })}
+    </div>
     </Fragment>
   );
 };

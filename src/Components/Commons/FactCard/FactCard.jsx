@@ -13,9 +13,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const FactCard = (props) => {
   return (
     <Fragment>
-      <Card style={{ width: '18rem' }} className="text-center" id="Card">
+      <Card style={{ width: '30rem' }} className="text-center" id="Card">
         <Card.Body>
-            <Card.Header>{props.title}</Card.Header>
+            <Card.Header >{props.title}</Card.Header>
             <Card.Subtitle className="mb-2 text-muted">
             <p id="Author">Auteur : {props.author}</p>
             </Card.Subtitle>

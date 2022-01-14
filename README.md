@@ -42,4 +42,6 @@ Pour gérer le routage entre les composants :
 
 ```bash
 nmp i react-router-dom
+
+npm i npm install react-bootstrap bootstrap@5.1.3
 ```

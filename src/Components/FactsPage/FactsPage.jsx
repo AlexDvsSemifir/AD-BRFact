@@ -5,6 +5,9 @@ import facts from "../../db/facts";
 import FactCard from "../Commons/FactCard/FactCard";
 
 // Components Imports :
+import CardGroup from 'react-bootstrap/CardGroup'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './FactsPage.css'
 
 export const FactsPage = () => {
 
@@ -12,6 +15,7 @@ export const FactsPage = () => {
 
   return (
     <Fragment>
+      <div className="Group">
       {facts &&
         facts.map((fact, index) => {
           return (
@@ -24,6 +28,8 @@ export const FactsPage = () => {
             />
           );
         })}
+      </div>
+        
     </Fragment>
   );
 };
