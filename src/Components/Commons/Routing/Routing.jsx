@@ -9,7 +9,6 @@ import NavBar from "../NavBar/NavBar";
 import HomePage from "../../HomePage/HomePage";
 import FactsPage from '../../FactsPage/FactsPage'
 import NewFactPage from '../../NewFactPage/NewFactPage'
-import Facts from '../../../db/facts'
 
 let pages = [
     {

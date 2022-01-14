@@ -2,8 +2,7 @@
 import React from "react";
 import { Fragment } from "react/cjs/react.production.min";
 import { useState } from "react";
-import { useEffect } from "react";
-import axios from 'axios';
+
 
 // Components Imports :
 import FactCard from "../../Commons/FactCard/FactCard";
