@@ -32,6 +32,13 @@ Wireframe :
 
 (https://whimsical.com/PELeMLtrtKwPGQ8oiUcQjo)
 
+
+### Quelques précisions 
+
+
+
+L'appli fonctionnant sans BDD/API, il n'est pour le moment pas possible d'y sauvegarder les différents ajouts de 'facts'.
+
 ## Installation
 
 ### Modules
